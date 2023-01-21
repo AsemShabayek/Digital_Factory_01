@@ -1,0 +1,177 @@
+{
+    "context": {
+        "UnitOfMeasureScale": 1,
+        "Zup": true,
+        "RepoPath": ""
+    },
+    "scene": [
+        "Comau_NJ220",
+        "Comau_NJ220.${prefix}base_link",
+        "Comau_NJ220.${prefix}link_1",
+        "Comau_NJ220.${prefix}link_2",
+        "Comau_NJ220.${prefix}link_3",
+        "Comau_NJ220.${prefix}link_4",
+        "Comau_NJ220.${prefix}link_5",
+        "Comau_NJ220.${prefix}link_6",
+        "Comau_NJ220.${prefix}base",
+        "Comau_NJ220.${prefix}flange",
+        "Comau_NJ220.${prefix}tool0"
+    ],
+    "assets": [
+        {
+            "id": "Comau_NJ220",
+            "representations": [
+                {
+                    "file": "Comau_NJ220.glb",
+                    "unit": 1
+                }
+            ]
+        },
+        {
+            "id": "Comau_NJ220.${prefix}base_link",
+            "representations": [
+                {
+                    "file": "Comau_NJ220.glb#base_link",
+                    "unit": 1
+                }
+            ],
+            "placementRelTo": "Comau_NJ220",
+            "parentObject": "Comau_NJ220"
+        },
+        {
+            "id": "Comau_NJ220.${prefix}link_1",
+            "representations": [
+                {
+                    "file": "Comau_NJ220.glb#link_1",
+                    "unit": 1
+                }
+            ],
+            "position": [
+                0.0,
+                0.0,
+                0.265
+            ],
+            "rotation": [
+                0.0,
+                -0.0,
+                0.0
+            ],
+            "placementRelTo": "Comau_NJ220.${prefix}base_link",
+            "parentObject": "Comau_NJ220.${prefix}base_link"
+        },
+        {
+            "id": "Comau_NJ220.${prefix}link_2",
+            "representations": [
+                {
+                    "file": "Comau_NJ220.glb#link_2",
+                    "unit": 1
+                }
+            ],
+            "placementRelTo": "Comau_NJ220.${prefix}link_1",
+            "parentObject": "Comau_NJ220.${prefix}link_1",
+            "position": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                -0.0,
+                0.0
+            ]
+        },
+        {
+            "id": "Comau_NJ220.${prefix}link_3",
+            "representations": [
+                {
+                    "file": "Comau_NJ220.glb#link_3",
+                    "unit": 1
+                }
+            ],
+            "placementRelTo": "Comau_NJ220.${prefix}link_2",
+            "parentObject": "Comau_NJ220.${prefix}link_2",
+            "position": [
+                0.0,
+                0.0,
+                0.444
+            ],
+            "rotation": [
+                0.0,
+                -0.0,
+                0.0
+            ]
+        },
+        {
+            "id": "Comau_NJ220.${prefix}link_4",
+            "representations": [
+                {
+                    "file": "Comau_NJ220.glb#link_4",
+                    "unit": 1
+                }
+            ],
+            "placementRelTo": "Comau_NJ220.${prefix}link_3",
+            "parentObject": "Comau_NJ220.${prefix}link_3",
+            "position": [
+                0.0,
+                0.0,
+                0.11
+            ],
+            "rotation": [
+                0.0,
+                -0.0,
+                0.0
+            ]
+        },
+        {
+            "id": "Comau_NJ220.${prefix}link_5",
+            "representations": [
+                {
+                    "file": "Comau_NJ220.glb#link_5",
+                    "unit": 1
+                }
+            ],
+            "placementRelTo": "Comau_NJ220.${prefix}link_4",
+            "parentObject": "Comau_NJ220.${prefix}link_4",
+            "position": [
+                0.47,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                -0.0,
+                0.0
+            ]
+        },
+        {
+            "id": "Comau_NJ220.${prefix}link_6",
+            "representations": [
+                {
+                    "file": "Comau_NJ220.glb#link_6",
+                    "unit": 1
+                }
+            ],
+            "placementRelTo": "Comau_NJ220.${prefix}link_5",
+            "parentObject": "Comau_NJ220.${prefix}link_5",
+            "position": [
+                0.101,
+                0.0,
+                0.08
+            ],
+            "rotation": [
+                0.0,
+                -0.0,
+                0.0
+            ]
+        },
+        {
+            "id": "Comau_NJ220.${prefix}base"
+        },
+        {
+            "id": "Comau_NJ220.${prefix}flange"
+        },
+        {
+            "id": "Comau_NJ220.${prefix}tool0"
+        }
+    ]
+}
