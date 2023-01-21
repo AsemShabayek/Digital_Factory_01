@@ -1,0 +1,177 @@
+{
+    "context": {
+        "UnitOfMeasureScale": 0.01,
+        "Zup": true,
+        "RepoPath": ""
+    },
+    "scene": [
+        "abb_crb15000_5_95",
+        "abb_crb15000_5_95.${prefix}base_link",
+        "abb_crb15000_5_95.${prefix}link_1",
+        "abb_crb15000_5_95.${prefix}link_2",
+        "abb_crb15000_5_95.${prefix}link_3",
+        "abb_crb15000_5_95.${prefix}link_4",
+        "abb_crb15000_5_95.${prefix}link_5",
+        "abb_crb15000_5_95.${prefix}link_6",
+        "abb_crb15000_5_95.${prefix}base",
+        "abb_crb15000_5_95.${prefix}flange",
+        "abb_crb15000_5_95.${prefix}tool0"
+    ],
+    "assets": [
+        {
+            "id": "abb_crb15000_5_95",
+            "representations": [
+                {
+                    "file": "7amada2.glb",
+                    "unit": 0.01
+                }
+            ]
+        },
+        {
+            "id": "abb_crb15000_5_95.${prefix}base_link",
+            "representations": [
+                {
+                    "file": "7amada2.glb#base_link",
+                    "unit": 1
+                }
+            ],
+            "placementRelTo": "abb_crb15000_5_95",
+            "parentObject": "abb_crb15000_5_95"
+        },
+        {
+            "id": "abb_crb15000_5_95.${prefix}link_1",
+            "representations": [
+                {
+                    "file": "7amada2.glb#link_1",
+                    "unit": 1
+                }
+            ],
+            "position": [
+                0.0,
+                0.0,
+                0.265
+            ],
+            "rotation": [
+                0.0,
+                -0.0,
+                0.0
+            ],
+            "placementRelTo": "abb_crb15000_5_95.${prefix}base_link",
+            "parentObject": "abb_crb15000_5_95.${prefix}base_link"
+        },
+        {
+            "id": "abb_crb15000_5_95.${prefix}link_2",
+            "representations": [
+                {
+                    "file": "7amada2.glb#link_2",
+                    "unit": 1
+                }
+            ],
+            "position": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                -0.0,
+                0.0
+            ],
+            "placementRelTo": "abb_crb15000_5_95.${prefix}link_1",
+            "parentObject": "abb_crb15000_5_95.${prefix}link_1"
+        },
+        {
+            "id": "abb_crb15000_5_95.${prefix}link_3",
+            "representations": [
+                {
+                    "file": "7amada2.glb#link_3",
+                    "unit": 1
+                }
+            ],
+            "position": [
+                0.0,
+                0.0,
+                0.444
+            ],
+            "rotation": [
+                0.0,
+                -0.0,
+                0.0
+            ],
+            "placementRelTo": "abb_crb15000_5_95.${prefix}link_2",
+            "parentObject": "abb_crb15000_5_95.${prefix}link_2"
+        },
+        {
+            "id": "abb_crb15000_5_95.${prefix}link_4",
+            "representations": [
+                {
+                    "file": "7amada2.glb#link_4",
+                    "unit": 1
+                }
+            ],
+            "position": [
+                0.0,
+                0.0,
+                0.11
+            ],
+            "rotation": [
+                0.0,
+                -0.0,
+                0.0
+            ],
+            "placementRelTo": "abb_crb15000_5_95.${prefix}link_3",
+            "parentObject": "abb_crb15000_5_95.${prefix}link_3"
+        },
+        {
+            "id": "abb_crb15000_5_95.${prefix}link_5",
+            "representations": [
+                {
+                    "file": "7amada2.glb#link_5",
+                    "unit": 1
+                }
+            ],
+            "position": [
+                0.47,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                -0.0,
+                0.0
+            ],
+            "placementRelTo": "abb_crb15000_5_95.${prefix}link_4",
+            "parentObject": "abb_crb15000_5_95.${prefix}link_4"
+        },
+        {
+            "id": "abb_crb15000_5_95.${prefix}link_6",
+            "representations": [
+                {
+                    "file": "7amada2.glb#link_6",
+                    "unit": 1
+                }
+            ],
+            "position": [
+                0.101,
+                0.0,
+                0.08
+            ],
+            "rotation": [
+                0.0,
+                -0.0,
+                0.0
+            ],
+            "placementRelTo": "abb_crb15000_5_95.${prefix}link_5",
+            "parentObject": "abb_crb15000_5_95.${prefix}link_5"
+        },
+        {
+            "id": "abb_crb15000_5_95.${prefix}base"
+        },
+        {
+            "id": "abb_crb15000_5_95.${prefix}flange"
+        },
+        {
+            "id": "abb_crb15000_5_95.${prefix}tool0"
+        }
+    ]
+}
